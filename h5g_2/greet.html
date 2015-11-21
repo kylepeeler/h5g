@@ -6,7 +6,9 @@
 	<title>greet.html</title>
 	<script type="text/javascript">
 		function greet(){
-			alert("Hi there! Thanks for clicking me");
+			var txtName = document.getElementByID("txtName");
+			var userName = txtName.value;
+			alert("Hi, " + userName + "!");
 		}//end greet
 
 	</script>
