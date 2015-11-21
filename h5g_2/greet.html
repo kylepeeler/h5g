@@ -8,7 +8,7 @@
 		function greet() {
 			var txtName = document.getElementById("txtName");
 			var userName = txtName.value;
-			alert("Hi, " + userName + "!");
+			output.innerHTML = "Hi, " + userName + "!";
 		}//end greet
 
 	</script>
@@ -25,6 +25,8 @@
 			</button>
 		</fieldset>
 	</form>
+	<div id="output">empty</div>
+
 </body>
 
 </html>
